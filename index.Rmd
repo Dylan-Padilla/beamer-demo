@@ -1,0 +1,82 @@
+---
+title: Beyond Microsoft
+
+author:
+
+- \linebreak Dylan Padilla
+
+date:
+
+- \linebreak \tiny ASN Graduate Council \linebreak Summer, 2024
+
+output:
+  beamer_presentation:
+      incremental: true
+      slide_level: 2
+      includes:
+         in_header: style.tex
+aspectratio: 1610
+---
+
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(dpi = 300,
+                      echo = FALSE,
+                      warning = FALSE,
+                      error = FALSE,
+                      fig.align = 'center')
+
+```
+
+```{r}
+
+
+library(tinytex)
+library(rmarkdown)
+library(knitr)
+
+```
+
+***
+
+## Outline
+
+- Chapter 1: Free Software should be the way to go
+
+- Chapter 2: Free Software should be the way to go
+
+- Chapter 3: Free Software should be the way to go
+
+- Chapter 4: Free Software should be the way to go
+
+
+***
+
+
+# Chapter 1
+
+
+***
+
+
+## What is Life History Theory?
+
+\begincols
+  \begincol{.48\textwidth}
+
+\justifying
+
+![](imgs/hatchlings.jpeg){#id .class width=60% height=80%}
+![](imgs/lizard_eggs.jpeg){#id .class width=70% height=70%}
+<br><br>
+  \endcol
+\begincol{.48\textwidth}
+
+\justifying
+
+![](imgs/komodo_dragon.jpeg){#id .class width=80% height=70%}
+![](imgs/phrynosoma.jpeg)
+
+  \endcol
+\endcols
